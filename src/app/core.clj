@@ -3,7 +3,7 @@
             [app.commitLog :as commitLog]
             [clj-time.core :as t]))
 
-(def inputImage "res/HelloWorld3.png")
+(def inputImage "res/HelloWorld2.png")
 (def year 2014)
 (def month 1)
 (def day 5)
