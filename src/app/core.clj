@@ -3,12 +3,14 @@
             [app.commitLog :as commitLog]
             [clj-time.core :as t]))
 
-(def numCommits `(0 1 2 4 6))
+(def inputImage "res/Test001.png")
+(def year 2016)
+(def month 1)
+(def day 3)
 
 (defn -main [& args]
   ;; check the height is 7, and the width is <= 52
-  (def pixels (imageLoad/getPixels "res/test.png"))
+  (def pixels (imageLoad/getPixels inputImage))
 
-  (commitLog/output "commitLog/test.sh"
-    (commitLog/build pixels (t/date-time 2016 10 2 8 00)))
-  )
+  (commitLog/output "commitLog/commitScript.sh"
+    (commitLog/build pixels (t/date-time year month day 8 00))))

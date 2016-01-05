@@ -25,7 +25,7 @@
 (defn getPixels
   "return all pixel colours for the given image as a single vector
   goes top to bottom then left to right, because that is how github orders its days"
-  ([filename] (getPixels (ImageIO/read (File. "res/test.png")) 0 0 []))
+  ([filename] (getPixels (ImageIO/read (File. filename)) 0 0 []))
   ([image x y pixels]
     (if (>= x (.getWidth image))
       ;; return pixels since we've reached the end of the image
