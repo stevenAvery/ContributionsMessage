@@ -2,7 +2,7 @@
   (:require [clj-time.core :as t]))
 
 ;;git commit --date="Sun Jan 15 14:00 2017 -0500" -am "."
-(def numCommits `(0 1 2 4 6))
+(def numCommits `(0 1 4 6 8))
 (def logFile "commitLog.txt")
 (def logHead (str "rm -f " logFile "\ntouch " logFile "\n"))
 
