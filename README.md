@@ -1,1 +1,1 @@
-testing
+git commit --date="Sun Jan 15 14:00 2017 +0500" -am "Message"
