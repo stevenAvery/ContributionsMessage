@@ -10,5 +10,5 @@
   (def pixels (imageLoad/getPixels "res/test.png"))
 
   (commitLog/output "commitLog/test.sh"
-    (commitLog/build [0 1 2 3 4] (t/date-time 2016 10 2 8 00)))
+    (commitLog/build pixels (t/date-time 2016 10 2 8 00)))
   )
