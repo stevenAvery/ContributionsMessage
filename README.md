@@ -18,3 +18,6 @@
   chmod +x commitScript.sh
   ./commitScript.sh
 ```
+
+- The final [result](https://github.com/stevenAvery?tab=overview&from=2014-12-01&to=2014-12-31) of `res/HelloWorld2.png` is:
+![HelloWorld Result](res/HelloWorldResult.png)
