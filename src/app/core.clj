@@ -3,10 +3,10 @@
             [app.commitLog :as commitLog]
             [clj-time.core :as t]))
 
-(def inputImage "res/Test001.png")
-(def year 2016)
+(def inputImage "res/HelloWorld3.png")
+(def year 2014)
 (def month 1)
-(def day 3)
+(def day 5)
 
 (defn -main [& args]
   ;; check the height is 7, and the width is <= 52
