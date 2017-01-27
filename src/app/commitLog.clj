@@ -38,5 +38,4 @@
 
 (defn output
   [filename log]
-  (spit filename log)
-  )
+  (spit filename log))

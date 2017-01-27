@@ -35,6 +35,7 @@
             pxColour {:r (.getRed pxColourInt)
                       :g (.getGreen pxColourInt)
                       :b (.getBlue pxColourInt)}]
+        ;; add the next pixel to the list
         (recur
           image
           (if (< y (dec (.getHeight image))) x (inc x))

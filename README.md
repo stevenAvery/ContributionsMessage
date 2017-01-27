@@ -16,4 +16,5 @@
   lein run
   cd commitLog
   chmod +x commitScript.sh
+  ./commitScript.sh
 ```
